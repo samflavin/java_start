@@ -11,12 +11,16 @@ public class Car {
         System.out.println("seats is : " + seats);
     }
 
-
-    public void initialize(String model_s, String red, int i) {
-        model = model_s;
-        color = red;
-        seats = i;
+    Car(String model, String color, int seats){
+        this.model = model;
+        this.color = color;
+        this.seats = seats;
     }
+//    public void initialize(String model_s, String red, int i) {
+//        model = model_s;
+//        color = red;
+//        seats = i;
+//    }
 }
 
 
