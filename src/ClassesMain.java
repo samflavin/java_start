@@ -15,8 +15,26 @@ public class ClassesMain {
 
         // Object declaration and memory allocation
 
+        // Instantiation using methods
         Car test;
         test = new Car();
+
+        Car c = new Car();
+        c.initialize("Model S", "Red",4);
+        c.display();
+        Car a = new Car();
+        a.initialize("Dodge", "Blue", 6);
+        a.display();
+
+        // Class reference initialization.  In this case,
+        //class variables must be public
+
+
+        Car b = new Car();
+        b.model = "Ford F-150";
+        b.color = "Purple";
+        b.seats = 3;
+
     }
 }
 
