@@ -12,6 +12,11 @@ public class ClassesMain {
         Car toyota = new Car();
         toyota.model = "Land Cruiser";
         toyota.display();
+
+        // Object declaration and memory allocation
+
+        Car test;
+        test = new Car();
     }
 }
 

@@ -7,6 +7,8 @@ public class Car {
 
     public void display() {
         System.out.println("model is : " + model);
+        System.out.println("color is : " + color);
+        System.out.println("seats is : " + seats);
     }
 }
 
