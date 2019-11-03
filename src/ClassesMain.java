@@ -26,6 +26,7 @@ public class ClassesMain {
 //        a.initialize("Dodge", "Blue", 6);
 //        a.display();
 
+        // Constructor
         Car d = new Car("Tesla", "white", 8);
         d.display();
 
