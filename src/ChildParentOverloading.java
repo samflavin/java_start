@@ -22,8 +22,13 @@ public class ChildParentOverloading {
 
         Y y = new Y();
         Z z = new Z();
+        Y x = new Z();
+
 
         childParentOverloading.m1(y);
         childParentOverloading.m1(z);
+        childParentOverloading.m1(x);
+
+
     }
 }
